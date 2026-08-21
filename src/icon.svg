@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#20334C"/><stop offset="1" stop-color="#0C1724"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.45" stop-color="#F4F1E9"/>
+      <stop offset="1" stop-color="#CFC8B8"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17A296"/><stop offset="1" stop-color="#0A6259"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FBD98A"/><stop offset="0.55" stop-color="#EAB454"/>
+      <stop offset="1" stop-color="#C98D22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#EAB454" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#EAB454" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="114" fill="url(#bg)"/>
+  <circle cx="120" cy="90" r="210" fill="#ffffff" opacity="0.04"/>
+  <circle cx="330" cy="360" r="150" fill="url(#glow)"/>
+  <g transform="translate(256 262) scale(1.09) translate(-256 -262)">
+
+  <!-- نمک‌پاش، کج‌شده رو به پایین‌راست -->
+  <g transform="translate(-14,-70) rotate(140 210 260)">
+    <!-- بدنه: پایین پهن، بالا باریک -->
+    <path d="M156 338 Q156 358 176 358 L244 358 Q264 358 264 338 L248 240 Q245 216 229 216 L191 216 Q175 216 172 240 Z" fill="url(#glass)"/>
+    <!-- نوار تزیینی -->
+    <path d="M164 286 L256 286 L258 304 L162 304 Z" fill="#0C7C72" opacity="0.15"/>
+    <!-- گردن و رینگ -->
+    <rect x="178" y="198" width="64" height="20" rx="4" fill="#C6BEAC"/>
+    <rect x="168" y="182" width="84" height="20" rx="9" fill="#0A6259"/>
+    <!-- درپوش گنبدی -->
+    <path d="M174 186 Q174 132 210 132 Q246 132 246 186 Z" fill="url(#cap)"/>
+    <!-- سوراخ‌ها -->
+    <circle cx="192" cy="164" r="8" fill="#08202B" opacity="0.9"/>
+    <circle cx="210" cy="153" r="8" fill="#08202B" opacity="0.9"/>
+    <circle cx="228" cy="164" r="8" fill="#08202B" opacity="0.9"/>
+    <!-- بازتاب نور -->
+    <path d="M186 244 L178 334 Q177 348 188 350" stroke="#ffffff" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- جریان سکه‌ها -->
+  <g>
+    <g transform="translate(272 292) rotate(-14)">
+      <circle r="21" fill="url(#gold)"/><circle r="11" fill="none" stroke="#A9741A" stroke-width="3.4" opacity="0.5"/>
+    </g>
+    <g transform="translate(340 322) rotate(20)">
+      <circle r="14" fill="url(#gold)"/><circle r="7" fill="none" stroke="#A9741A" stroke-width="2.6" opacity="0.5"/>
+    </g>
+    <g transform="translate(318 386) rotate(-6)">
+      <circle r="26" fill="url(#gold)"/><circle r="14" fill="none" stroke="#A9741A" stroke-width="4" opacity="0.5"/>
+    </g>
+    <g transform="translate(398 392) rotate(10)">
+      <circle r="17" fill="url(#gold)"/><circle r="9" fill="none" stroke="#A9741A" stroke-width="3" opacity="0.5"/>
+    </g>
+    <circle cx="252" cy="368" r="9" fill="url(#gold)" opacity="0.9"/>
+    <circle cx="380" cy="452" r="11" fill="url(#gold)" opacity="0.85"/>
+    <circle cx="258" cy="432" r="7" fill="url(#gold)" opacity="0.7"/>
+    <circle cx="432" cy="330" r="7" fill="url(#gold)" opacity="0.6"/>
+  </g>
+  </g>
+</svg>

@@ -44,39 +44,41 @@ no dependencies.
 ### Trips
 Every trip or event keeps its own members and expenses.
 
-<!-- ![Trips](screenshots/trips.png) -->
+![Trips](screenshots/trips.png)
 
 ### Expenses
 Split **equally**, by **exact amounts**, or by **weight** (someone pays double).
 Rounding remainders are distributed, so shares always add up to the total exactly.
 
-<!-- ![Expenses](screenshots/expenses.png) -->
+![Expenses](screenshots/expenses.png)
 
 ### Search & analysis
 Search across titles, payers and participants. Filter by payer, participant, amount
 range, date range and type. The summary shows each person's share and spending
 **within the current filter**.
 
-<!-- ![Filters](screenshots/filters.png) -->
+![Filters](screenshots/filters.png)
 
 ### Settlement
 Everyone's paid / share / net balance, then the suggested transfers with a clear
 arrow running from payer to receiver.
 
-<!-- ![Settlement](screenshots/settlement.png) -->
+![Settlement](screenshots/settlement.png)
+![Settlement](screenshots/settlement2.png)
+
 
 ### Manual adjustment
 Don't like the suggestion? Change any amount, sender or receiver; add or remove rows.
 A live panel shows who is still short, **Auto-complete** closes the gaps, and saving
 is blocked until the maths balances. One tap returns to the suggestion.
 
-<!-- ![Manual plan](screenshots/manual.png) -->
+![Manual plan](screenshots/manual.png)
 
 ### Export
 Excel workbook (summary, settlement, itemised expenses) and a printable A4 report you
 can save as PDF.
 
-<!-- ![Export](screenshots/export.png) -->
+![Export](screenshots/export.png)
 
 ### Also
 - English and Persian, with full RTL/LTR switching

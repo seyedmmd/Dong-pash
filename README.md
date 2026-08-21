@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.svg" width="110" alt="DongPash logo">
+  <img src="src/icon.svg" width="110" alt="DongPash logo">
 </p>
 
 <h1 align="center">DongPash</h1>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/icon.svg" width="110" alt="لوگوی دنگ‌پاش">
+  <img src="docs/icon.svg" width="110" alt="لوگوی دنگ‌پاش">
 </p>
 
 <h1 align="center">دنگ‌پاش</h1>

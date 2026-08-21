@@ -1,5 +1,5 @@
 /* کش آفلاین — با هر به‌روزرسانی، عدد نسخه را عوض کن */
-const CACHE = "dongpash-v7";
+const CACHE = "dongpash-v8";
 const FILES = ["./", "./index.html", "./manifest.json", "./icon.svg", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
